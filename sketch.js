@@ -36,7 +36,7 @@ let shuffledInitialXPosArray = [];
 let shuffledInitialYPosArray = [];
 
 function setup() {
-   let canvas = createCanvas(windowWidth, 700);
+   let canvas = createCanvas(windowWidth, 600);
    canvas.parent('sketch_holder');
    noStroke();
    noiseDetail(24);
